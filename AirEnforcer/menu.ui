@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QDialog" name="Menu">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Air Enforcer</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/images/resources/p.png</normaloff>:/images/resources/p.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: url(:/menu/resources/menubg.png)</string>
+  </property>
+  <widget class="QPushButton" name="btnnewgame">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>340</y>
+     <width>300</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#btnnewgame 
+{
+background-color: transparent;
+border-image: url(:/menu/resources/btnng.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+#btnnewgame:hover
+{
+   border-image: url(:/menu/resources/btnng2.png)
+}
+
+#btnnewgame:pressed
+{
+   border-image: url(:/menu/resources/btnng3.png)
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnexit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>490</y>
+     <width>300</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#btnexit
+{
+background-color: transparent;
+border-image: url(:/menu/resources/btnexit.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+#btnexit:hover
+{
+   border-image: url(:/menu/resources/btnexit2.png)
+}
+
+#btnexit:pressed
+{
+   border-image: url(:/menu/resources/btnexit3.png)
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnhowto">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>390</y>
+     <width>300</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#btnhowto
+{
+background-color: transparent;
+border-image: url(:/menu/resources/btnhow.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+#btnhowto:hover
+{
+   border-image: url(:/menu/resources/btnhow2.png)
+}
+
+#btnhowto:pressed
+{
+   border-image: url(:/menu/resources/btnhow3.png)
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnabout">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>440</y>
+     <width>300</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#btnabout
+{
+background-color: transparent;
+border-image: url(:/menu/resources/btnabout.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+
+#btnabout:hover
+{
+   border-image: url(:/menu/resources/btnabout2.png)
+}
+
+#btnabout:pressed
+{
+   border-image: url(:/menu/resources/btnabout3.png)
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
