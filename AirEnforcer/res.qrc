@@ -1,16 +1,10 @@
 <RCC>
     <qresource prefix="/sounds">
-        <file>resources/bgsound.mp3</file>
         <file>resources/bullet.mp3</file>
         <file>resources/bgmusic.mp3</file>
     </qresource>
     <qresource prefix="/images">
-        <file>resources/bgtexture.jpg</file>
         <file>resources/bullets.png</file>
-        <file>resources/enemy1.png</file>
-        <file>resources/player.png</file>
-        <file>resources/302745.jpg</file>
-        <file>resources/bg3.jpg</file>
         <file>resources/e.png</file>
         <file>resources/p.png</file>
         <file>resources/bg.png</file>
@@ -33,7 +27,6 @@
         <file>resources/instagram (1).png</file>
         <file>resources/facebook (1).png</file>
         <file>resources/github.png</file>
-        <file>resources/stack-overflow.png</file>
         <file>resources/github (1).png</file>
         <file>resources/back (1).png</file>
         <file>resources/back (2).png</file>
