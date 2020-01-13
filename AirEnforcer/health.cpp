@@ -18,17 +18,6 @@ health::health(QGraphicsItem *parent): QGraphicsTextItem(parent){
 void health::decrease(){
     Health--;
     setPlainText(QString("Health: ") + QString::number(Health)); // Health: 2
-
-//    if(Health==0){
-
-//        game gm;
-//        gm.gameover();
-
-
-//        Menu mn;
-//        mn.setModal(true);
-//        mn.exec();
-//    }
 }
 
 int health::getHealth(){
